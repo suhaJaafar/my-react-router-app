@@ -63,7 +63,7 @@ export function Welcome() {
 			{/* Image */}
 			<div className='w-full flex justify-center py-6'>
 				<img
-					src='/home_pass_img.jpeg'
+					src='/home_pass_img_test.jpeg'
 					alt='For You Baby'
 					className='w-full max-w-xs rounded-2xl shadow-2xl rotate-1'
 					style={{ filter: 'drop-shadow(0 8px 28px rgba(251,113,133,0.35))' }}
