@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 
-const STATIC_PASSWORD = 'mylove'; // Change this to your desired password
+const STATIC_PASSWORD = '06/23'; // Change this to your desired password
 
 export function Welcome() {
 	const [password, setPassword] = useState('');
