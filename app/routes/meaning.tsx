@@ -2,15 +2,21 @@ import { FaArrowLeftLong } from 'react-icons/fa6';
 import { FaHeart, FaShieldAlt, FaUserFriends, FaHome } from 'react-icons/fa';
 import { MdFavorite } from 'react-icons/md';
 import { useNavigate } from 'react-router';
+import { PiHeartThin, PiInfinityThin } from 'react-icons/pi';
+import { LiaUserFriendsSolid } from 'react-icons/lia';
+import { TfiHome } from 'react-icons/tfi';
 
 const words = [
-	{ ar: 'الحب', icon: <FaHeart className='text-rose-400' size={32} /> },
-	{ ar: 'الامان', icon: <FaShieldAlt className='text-rose-400' size={32} /> },
+	{ ar: 'الحب', icon: <PiHeartThin className='text-rose-400' size={32} /> },
+	{
+		ar: 'الامان',
+		icon: <PiInfinityThin className='text-rose-400' size={32} />,
+	},
 	{
 		ar: 'الصداقة',
-		icon: <FaUserFriends className='text-rose-400' size={32} />,
+		icon: <LiaUserFriendsSolid className='text-rose-400' size={32} />,
 	},
-	{ ar: 'البيت', icon: <FaHome className='text-rose-400' size={32} /> },
+	{ ar: 'البيت', icon: <TfiHome className='text-rose-400' size={32} /> },
 ];
 
 export default function Meaning() {

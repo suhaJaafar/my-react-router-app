@@ -1,9 +1,15 @@
 import { useNavigate } from 'react-router';
 import { BsImages } from 'react-icons/bs';
 import { BsBalloonHeart } from 'react-icons/bs';
+import { CiStickyNote } from 'react-icons/ci';
 
 const sections = [
-	{ id: 'favorites', title: 'My Favorites', emoji: '✨', path: '/favorites' },
+	{
+		id: 'favorites',
+		title: 'My Favorites',
+		emoji: <CiStickyNote className='text-rose-400' />,
+		path: '/favorites',
+	},
 	{
 		id: 'meaning',
 		title: 'What You Mean To Me',
@@ -13,7 +19,7 @@ const sections = [
 	{
 		id: 'memories',
 		title: 'Our Memories I Like',
-		emoji: <BsImages />,
+		emoji: <BsImages className='text-rose-400' />,
 		path: '/memories',
 	},
 ];

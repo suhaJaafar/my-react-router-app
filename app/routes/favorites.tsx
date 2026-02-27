@@ -1,4 +1,5 @@
 import { BsStars } from 'react-icons/bs';
+import { CiStickyNote } from 'react-icons/ci';
 import { FaArrowLeftLong } from 'react-icons/fa6';
 import { IoMdHeartEmpty } from 'react-icons/io';
 import { useNavigate } from 'react-router';
@@ -25,7 +26,7 @@ export default function Favorites() {
 
 			{/* Content */}
 			<div className='flex flex-col items-center gap-8 w-full'>
-				<BsStars className='text-rose-400' size={52} />
+				<CiStickyNote className='text-rose-400' size={52} />
 				<h1 className='text-2xl font-bold text-gray-800 tracking-wide'>
 					My Favorites
 				</h1>

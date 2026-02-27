@@ -38,7 +38,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 					<img
 						src='/bg_img.jpeg'
 						alt=''
-						className='w-full h-full object-cover object-center'
+						className='w-full h-full object-cover object-top'
 						style={{ opacity: 0.55 }}
 					/>
 					{/* Light white wash so text stays readable */}

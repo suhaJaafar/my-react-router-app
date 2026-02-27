@@ -1,28 +1,38 @@
 import { BsImages } from 'react-icons/bs';
-import { FaMusic, FaBookOpen, FaTv, FaHeart, FaEye } from 'react-icons/fa';
+import { CiHeart, CiMusicNote1 } from 'react-icons/ci';
+import {
+	FaMusic,
+	FaBookOpen,
+	FaTv,
+	FaHeart,
+	FaEye,
+	FaComment,
+} from 'react-icons/fa';
 import { FaArrowLeftLong } from 'react-icons/fa6';
 import { IoMdHeartEmpty } from 'react-icons/io';
+import { LiaCommentDotsSolid, LiaTvSolid } from 'react-icons/lia';
+import { PiBookOpenTextThin } from 'react-icons/pi';
 import { useNavigate } from 'react-router';
 
 const memories = [
 	{
-		icon: <FaMusic className='text-rose-400' size={28} />,
+		icon: <CiMusicNote1 className='text-rose-400' size={28} />,
 		text: 'من شرحتلي اغنية شمسية',
 	},
 	{
-		icon: <FaBookOpen className='text-rose-400' size={28} />,
+		icon: <PiBookOpenTextThin className='text-rose-400' size={28} />,
 		text: 'من قريتلي انجيل واحنا متزاعلين',
 	},
 	{
-		icon: <FaTv className='text-rose-400' size={28} />,
+		icon: <LiaTvSolid className='text-rose-400' size={28} />,
 		text: 'من جنة نباوع مسلسل سوة\nوكتلي لو بس اعرف شمستفادة وانت تباوعيلي هيج',
 	},
 	{
-		icon: <FaHeart className='text-rose-400' size={28} />,
+		icon: <CiHeart className='text-rose-400' size={28} />,
 		text: 'من بجيت علية لان حسيت صدك تحبني',
 	},
 	{
-		icon: <FaEye className='text-rose-400' size={28} />,
+		icon: <LiaCommentDotsSolid className='text-rose-400' size={28} />,
 		text: 'من كتلي اني ماعندي صورة الج بس وجهج وانت تباوعيلي وعيونج تضحكلي محد يكدر يمحيه من ذاكرتي',
 	},
 ];
